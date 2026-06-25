@@ -3,14 +3,11 @@ body {
     font-size: 18px;
     margin: 0;
     height: 100vh;
-    background: #161617;
+    background: var(--color-bg);
     background-image: url();
-    color: #fff;
+    color: var(--color-text);
 }
 
-:root {
-    --color-primary: rgb(255 255 255 / 78%)
-}
 
 ul {
     margin: 0;
@@ -44,11 +41,6 @@ nav > img {
     padding: 2px;
 }
 
-nav span {
-    color: #fff;
-    font-size: 20px;
-}
-
 a {
     cursor: pointer;
 }
@@ -65,7 +57,7 @@ a {
 .menu li {
     display: inline-block;
     width: 90px;
-    color: #fffff5;
+    color: var(--color-text-muted);
     transition: all 0.3s ease-in-out;
 }
 
@@ -99,7 +91,7 @@ a {
     bottom: 3px;
     left: 0px;
     border-radius: 3px;
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-muted);
     transition: all 0.2s ease-in-out;
     scale: 0 0;
     visibility: hidden;
