@@ -1,7 +1,12 @@
 :root {
     --color-primary: #ffffff;
     --color-primary-muted: rgb(255 255 255 / 78%);
+    --color-secondary: #000000;
     --color-bg: #161617;
     --color-text: #fffff5;
+    --color-accent: #00C2FF;
     --font-main: "Euclid Circular B", "Poppins", sans-serif;
+    --box-shadow: 0 1 px 0 rgb(255 255 255 / 8%);
+    --box-background: rgb(22 22 23 / 95%);
+    --nav-height: 80px;
 }
